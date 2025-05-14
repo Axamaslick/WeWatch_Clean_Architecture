@@ -1,4 +1,4 @@
-package com.sample.wewatch.model
+package com.sample.wewatch.domain.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

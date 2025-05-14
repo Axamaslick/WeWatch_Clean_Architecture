@@ -1,4 +1,4 @@
-package com.sample.wewatch
+package com.sample.wewatch.presentation
 
 import android.app.Activity
 import android.content.Intent
@@ -13,6 +13,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.sample.wewatch.R
+import com.sample.wewatch.SearchAdapter
 import com.sample.wewatch.model.RemoteDataSource
 import com.sample.wewatch.model.TmdbResponse
 import io.reactivex.Observable

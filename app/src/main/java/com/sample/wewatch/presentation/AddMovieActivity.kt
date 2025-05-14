@@ -1,4 +1,4 @@
-package com.sample.wewatch
+package com.sample.wewatch.presentation
 
 import android.app.Activity
 import android.content.Intent
@@ -9,8 +9,9 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.sample.wewatch.model.LocalDataSource
-import com.sample.wewatch.model.Movie
+import com.sample.wewatch.R
+import com.sample.wewatch.local.LocalDataSource
+import com.sample.wewatch.domain.model.Movie
 import com.sample.wewatch.network.RetrofitClient.TMDB_IMAGEURL
 
 import com.squareup.picasso.Picasso
@@ -67,7 +68,7 @@ open class AddMovieActivity : AppCompatActivity() {
       titleEditText.setText(data?.getStringExtra(SearchActivity.EXTRA_TITLE))
       releaseDateEditText.setText(data?.getStringExtra(SearchActivity.EXTRA_RELEASE_DATE))
       movieImageView.tag = data?.getStringExtra(SearchActivity.EXTRA_POSTER_PATH)
-      Picasso.get().load(TMDB_IMAGEURL + data?.getStringExtra(SearchActivity.`EXTRA_POSTER_PATH`)).into(movieImageView)
+      Picasso.get().load(TMDB_IMAGEURL + data?.getStringExtra(SearchActivity.EXTRA_POSTER_PATH)).into(movieImageView)
     }
   }
 

@@ -1,6 +1,7 @@
-package com.sample.wewatch.model
+package com.sample.wewatch.local
 
 import android.app.Application
+import com.sample.wewatch.domain.model.Movie
 import io.reactivex.Observable
 import kotlin.concurrent.thread
 

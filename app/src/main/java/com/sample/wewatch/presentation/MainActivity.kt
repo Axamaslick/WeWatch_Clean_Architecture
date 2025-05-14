@@ -1,4 +1,4 @@
-package com.sample.wewatch
+package com.sample.wewatch.presentation
 
 import android.app.Activity
 import android.content.Intent
@@ -15,8 +15,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.sample.wewatch.model.LocalDataSource
-import com.sample.wewatch.model.Movie
+import com.sample.wewatch.MainAdapter
+import com.sample.wewatch.R
+import com.sample.wewatch.local.LocalDataSource
+import com.sample.wewatch.domain.model.Movie
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 

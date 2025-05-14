@@ -1,10 +1,11 @@
-package com.sample.wewatch.model
+package com.sample.wewatch.local
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy.Companion.REPLACE
 import androidx.room.Query
 import androidx.room.Update
+import com.sample.wewatch.domain.model.Movie
 import io.reactivex.Observable
 
 @Dao

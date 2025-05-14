@@ -2,6 +2,7 @@ package com.sample.wewatch.model
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
+import com.sample.wewatch.domain.model.Movie
 
 class TmdbResponse {
   @SerializedName("page")
