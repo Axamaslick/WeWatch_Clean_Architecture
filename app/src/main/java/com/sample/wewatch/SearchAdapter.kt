@@ -8,7 +8,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.sample.wewatch.domain.model.Movie
-import com.sample.wewatch.presentation.SearchActivity
 import com.squareup.picasso.Picasso
 
 

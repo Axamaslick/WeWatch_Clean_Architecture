@@ -10,6 +10,7 @@ import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.sample.wewatch.R
+import com.sample.wewatch.SearchActivity
 import com.sample.wewatch.local.LocalDataSource
 import com.sample.wewatch.domain.model.Movie
 import com.sample.wewatch.network.RetrofitClient.TMDB_IMAGEURL

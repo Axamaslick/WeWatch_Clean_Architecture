@@ -28,7 +28,7 @@
                   android:label="Add Movie">
         </activity>
 
-        <activity android:name=".presentation.SearchActivity"
+        <activity android:name=".SearchActivity"
                   android:label="Search Results">
         </activity>
 
